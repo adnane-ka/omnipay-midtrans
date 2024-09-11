@@ -6,7 +6,7 @@
 processing library for PHP 5.3+. This package implements Midtrans support for Omnipay.
 
 ## Installation
-```json
+```shell
 composer require adnane-ka/omnipay-midtrans
 ```
 
