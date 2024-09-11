@@ -6,23 +6,10 @@
 processing library for PHP 5.3+. This package implements Midtrans support for Omnipay.
 
 ## Installation
-
-Omnipay is installed via [Composer](http://getcomposer.org/). To install, simply add it
-to your `composer.json` file:
-
 ```json
-{
-    "require": {
-        "dilab/omnipay-midtrans": "~2.0"
-    }
-}
+composer require adnane-ka/omnipay-midtrans
 ```
 
-And run composer to update your dependencies:
-
-    $ curl -s http://getcomposer.org/installer | php
-    $ php composer.phar update
-    
 ## Support
 This package currently supports following products from Midtrans:
 + [Snap](https://snap-docs.midtrans.com/) via [Window Redirection](https://snap-docs.midtrans.com/#window-redirection)
@@ -37,6 +24,9 @@ The following methods are provided by this package:
 For general usage instructions, please see the main [Omnipay](https://github.com/thephpleague/omnipay)
 repository.
 
+
+## Credit
+This repo is a refined version of [dilab/omnipay-midtrans](https://github.com/dilab/omnipay-midtrans/)
 
 ## Support
 
